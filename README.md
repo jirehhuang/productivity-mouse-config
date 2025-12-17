@@ -3,24 +3,25 @@
 The configuration in this repository was designed for the [UtechSmart Wireless VenusPro Gaming Mouse](https://www.utechsmart.com/products/DS-2833.html) ([Amazon](https://www.amazon.com/UtechSmart-transmission-technology-Ergonomic-programmable/dp/B07XP4K152)). Some attractive qualities include:
 
 - Relatively affordable, making it feasible for multiple setups and easy to replace
-- Reliable (unlike Logitech G600, which is prone to double-clicking)
-- Responsive wireless with good battery life, and can be rechared while being used in wired mode
+- Reliable (unlike the Logitech G600, which is prone to double-clicking)
+- Responsive wireless with good battery life, and can be recharged while being used in wired mode
 - On-board memory (key bindings persist without locally installed software)
 
-Obviously, the choices were made according to my personal preference. For example, one could argue that the "close tab" button conceptually belongs at button 11, but I am accustomed to having it on 8. You are encouraged to make it your own and customize the configuration to your desired specifications.
+Obviously, the choices in this configuration were made according to my personal preference. For example, one could argue that the "close tab" button conceptually belongs at button 11, but I am accustomed to having it on 8. You are encouraged to make it your own and customize the configuration to your specifications.
 
 
 ## Windows installation instructions
 
-The mouse must be first configured on a Windows device. If desired, the 4t Tray Minimizer software must be installed on all applicable Windows devices.
+The mouse must first be configured on a Windows device. If desired, the 4t Tray Minimizer software should be installed on all applicable Windows devices.
 
 1. Install provided UtechSmart software and import [utechsmart-venuspro-settings.jmk](/utechsmart-venuspro-settings.jmk)
 
 2. Install [4t Tray Minimizer Free](https://www.4t-niagara.com/tray.html) and import [4t-settings.4t-min_ini](/4t-settings.4t-min_ini)
 
-    4t Tray Minimizer is a lightweight tool for conveniently minimizing and restoring windows from the tray. I have found it convenient across over a decade of use, but it is not required.
+    4t Tray Minimizer is a lightweight tool for conveniently minimizing and restoring windows from the tray.
+    I have found it useful over a decade of use, but it is not required and you can use the corresponding keys for something else.
 
-The 12 programmable buttons on the side panel are accessible to the thumb as 4 rows of 3 columns and are bound as follows, acting on the active window:
+The 12 programmable buttons on the side panel are accessible to the thumb as 4 rows of 3 columns. They are bound as follows, acting on the active window:
 
 | Button | Shortcut | Description |
 |--------|----------|-------------|
@@ -40,7 +41,7 @@ The 12 programmable buttons on the side panel are accessible to the thumb as 4 r
 
 ## macOS installation instructions
 
-The following instructions extend the configuration to seamlessly operate on and switch between both Windows and macOS devices. All desired features must be installed on all applicable devices.
+The following instructions extend the configuration to seamlessly operate on and allow switching between both Windows and macOS devices. All desired features should be installed on all applicable devices.
 
 1. Install [Karabiner Elements](https://karabiner-elements.pqrs.org/) and clone this repository into `~/.config/karabiner`:
 
